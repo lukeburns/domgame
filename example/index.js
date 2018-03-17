@@ -1,4 +1,4 @@
-const domgame = require('./')
+const domgame = require('../')
 const html = require('bel')
 
 const targets = Array(10).fill(1)
