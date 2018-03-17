@@ -1,0 +1,17 @@
+{
+  "name": "domgame",
+  "version": "0.1.0",
+  "description": "simple dom games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Burns",
+  "license": "MIT",
+  "dependencies": {
+    "xoo": "^1.2.0"
+  },
+  "devDependencies": {
+    "bel": "^6.0.0"
+  }
+}
