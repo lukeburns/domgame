@@ -3,7 +3,7 @@ const xoo = require('xoo')
 module.exports = function (view, config={}) {
   const timeLimit = config.timeLimit || 60000
   const targetValues = config.targetValues || { 'target': 1 }
-  const clickLimit = Object.keys(targetValues).length
+  const clickLimit = config.clickLimit || Object.keys(targetValues).length
     
   // state
   const bind = xoo({
